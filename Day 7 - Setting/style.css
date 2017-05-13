@@ -1,0 +1,88 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+  color: #D1D1CF;
+}
+
+body {
+  background-color: #414141;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#container {
+  margin: 50px 20px;
+  padding: 30px 20px;
+  background-color: #292929;
+  text-align: center;
+}
+
+#container h3 {
+  margin: 20px 0;
+  color: #FF9C00;
+}
+
+#container padding: ; {
+  margin: 0 0 20px;
+  font-size: 10pt;
+}
+
+#container hr {
+  border-color: #393939;  
+}
+
+#settings p {
+  margin: 15px 0;
+  font-size: 12pt;
+}
+
+input[type="radio"]{
+  background-color: black;
+}
+
+#settings p button {
+  border: none;
+  background-color: #181818;
+  color: #878785;
+  width: 90px;
+  margin: 3px;
+  padding: 8px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+
+/* MEDIA QUERY FOR LARGE SCREEN */
+
+@media screen and (min-width: 760px) {
+  #container {
+    margin: 50px auto;
+    max-width: 60%;
+    text-align: justify;
+  }
+  #settings {
+    max-width: 70%;
+    margin: 0 auto;
+  }
+  #settings p input {
+    text-align: right;
+  }
+  #settings p:last-child {
+    text-align: center;
+  }
+  
+  .radio input {
+    margin-left: 10px;
+  }
+}

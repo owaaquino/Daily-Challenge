@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Day 7 - Setting</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="container">
+  <h3>Settings</h3>
+  <p>Updates is made upon clicking the "Save" button.</p>
+  <hr />
+  <form id="settings">
+    <p class="radio">
+      <label for="music">Music</label>
+      <input type="radio" name="music" checked="checked" />On
+      <input type="radio" name="music" />Off
+    </p>
+    <p class="radio">
+      <label for="sound">Sound</label>
+      <input type="radio" name="sound" checked="checked" />On
+      <input type="radio" name="sound" />Off
+    </p>
+    <p>
+      <label for="volume">Volume</label>
+      <input type="range" min="1" max="5" id="slider" value="3" />
+      <label id="rangeValue">3</range>
+    </p>
+     <p>
+      <input type="checkbox" checked="checked"/>
+      <label for="hd">HD</label>
+    </p>
+    <p>
+      <input type="checkbox" />
+      <label for="xBass">Bass</label>
+    </p>
+    <p>
+      <button>Save</button>
+      <button>Reset</button>
+    </p>
+  </form>
+</div>
+
+<script type="text/javascript" src="app.js"></script>
+
+</body>
+</html>
