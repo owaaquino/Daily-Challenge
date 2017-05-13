@@ -1,0 +1,119 @@
+h1, h2, p, li, ul, form, a, div, input {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Source Sans Pro', sans-serif;  
+  background: rgba(147,206,222,1);
+  background: -moz-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(147,206,222,1)), color-stop(41%, rgba(117,189,209,1)), color-stop(100%, rgba(73,165,191,1)));
+  background: -webkit-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+  background: -o-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+  background: -ms-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+  background: linear-gradient(to right, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf', GradientType=1 );
+}
+
+label, input, button, a, img {
+  display: block;
+  margin-bottom: 10px;
+}
+
+button{
+  margin: 0 auto;
+  width: 100px;
+}
+
+a {
+  text-decoration: none;
+  color:#33C7FF ;
+}
+
+div{
+  margin: 0 auto;
+  margin-top: 50px;
+  border: solid 1px #fff;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+div h1 {
+  text-align: center;  
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+div form {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+div form input {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  border: none;
+  border-bottom: 2px solid #4cc6e8;
+  height: 30px;
+}
+
+div form a {
+  text-align: center;  
+  margin-top: 10px;
+}
+
+/*MEDIA QUERY FOR DESKTOP BELOW*/
+
+@media screen and (min-width: 980px) {
+
+label, input, button, a {
+  display: block;
+  margin-bottom: 10px;
+}
+
+button{
+  margin: 0 auto;
+  width: 100px;
+}
+
+div{
+  max-width: 50%;
+  height: 350px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border: solid 1px #fff;
+  border-radius: 10px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 51px -3px rgba(59,59,59,1);
+-moz-box-shadow: 0px 0px 51px -3px rgba(59,59,59,1);
+box-shadow: 0px 0px 51px -3px rgba(59,59,59,1);
+}
+
+div h1 {
+  text-align: center;  
+  margin-top: 50px;
+}
+
+div form {
+  max-width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+}
+
+div form label {
+  text-align: justify;
+}
+
+div form input {
+  width: 100%;
+}
+
+div form a {
+  text-align: center; 
+}
+
+}

@@ -1,0 +1,84 @@
+h1, p, div, li, ul, a, img, nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+nav {
+  font-size: 10pt;
+}
+
+img {
+  width: 80px;
+  display: block;
+  margin: 0 auto;
+}
+
+#container {
+  margin: 30px auto 0;
+  padding: 40px 20px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+#description {
+  text-align: center;
+}  
+
+#description h1,#description p {
+  margin: 50px 0;
+}
+
+#description form input {
+  margin-bottom: 20px;
+}
+
+#description form button {
+  font-size: 10pt;
+  border: 0;
+  background-color: #FF5733;
+  padding: 5px 25px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 550px) {
+  body {
+    background: url("https://s-media-cache-ak0.pinimg.com/originals/d5/42/06/d54206694dc2f41845be333a1ff3776c.jpg") no-repeat;
+    background-size: cover;
+  }  
+
+  nav {
+    display: inline-block;
+  }
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  img {
+    width: 50px;
+    display: inline-block;
+    margin-left: 50px;
+  }
+  
+  #container {
+    max-width: 50%;    
+  -webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.21);
+-moz-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.21);
+box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.21);
+  }
+  
+  #description {
+    margin: 0 auto;
+    max-width: 45%;
+  }
+  
+  #description form button {
+    padding: 3px 8px;
+}
+}

@@ -1,0 +1,78 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  background: rgba(147,206,222,1);
+background: -moz-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(147,206,222,1)), color-stop(41%, rgba(117,189,209,1)), color-stop(100%, rgba(73,165,191,1)));
+background: -webkit-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+background: -o-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+background: -ms-linear-gradient(left, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+background: linear-gradient(to right, rgba(147,206,222,1) 0%, rgba(117,189,209,1) 41%, rgba(73,165,191,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#93cede', endColorstr='#49a5bf', GradientType=1 );
+}
+
+#icon, #icon2 {
+  position: relative;
+  margin: 250px auto 0;
+  width: 200px;
+  height: 200px;  
+  -webkit-box-shadow: 0px 7px 20px 3px rgba(0,0,0,0.24);
+-moz-box-shadow: 0px 7px 20px 3px rgba(0,0,0,0.24);
+box-shadow: 0px 7px 20px 3px rgba(0,0,0,0.24);
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #5FA478;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 100;
+}
+
+#icon2 {
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+#icon:hover, #icon2:hover {
+  background-color: #789c85;
+}
+
+.sun {
+  position: absolute;
+  top: 40px;
+  left: 45px;
+  margin: auto;
+  boder-radius: 10px; 
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #FFC300;
+}
+
+.mountain1, .mountain2 {
+  position: absolute;
+  display: inline; 
+}
+
+
+.mountain1{  
+    top: 80px;
+  right: 20px;
+  width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 55px solid transparent;
+	border-bottom: 100px solid #6A4A25;
+  z-index: 1;
+}
+
+.mountain2{
+  left: 20px;
+  top: 100px;
+  width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 80px solid #54493D;
+  z-index: 2;
+}
